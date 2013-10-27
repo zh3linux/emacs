@@ -1,8 +1,8 @@
 (require-package 'auto-complete)
 (require 'auto-complete-config)
 (global-auto-complete-mode t)
-(setq ac-expand-on-auto-complete nil)
-(setq ac-auto-start nil)
+;;(setq ac-expand-on-auto-complete nil)
+;;(setq ac-auto-start nil)
 (setq ac-dwim nil) ; To get pop-ups with docs even if a word is uniquely completed
 
 ;;----------------------------------------------------------------------------

@@ -1,0 +1,128 @@
+cd work/
+ls
+cd work/
+sl
+ls
+sh reload.sh 
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+sh reload.sh 
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+source ~/.bashrc
+ls
+cd $vip
+ls
+cd /o 
+cd /opt/apps/
+ls
+cd web/vip_wps_cn/
+sl
+svn st
+svn add nginx/lua/logic/qing_openapi.lua 
+cd 
+ls
+cd work/work/
+ls
+sh reload.sh 
+sh reload.sh 
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+ls
+ls
+cd /opt/apps/web/
+ls
+cd vip_wps_cn/
+ls
+svn st
+svn st
+svn commit -m "更新增加稻米执行自动扣费操作"
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+cd
+ls
+cd work/work/
+ls
+sh reload.sh 
+sh reload.sh 
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+curl http://vip.wps.cn/api/users/20147376/wealth/test
+ls
+cd
+ls
+cd doc/
+ls
+cd bin/
+ls
+cd
+ls
+git clone git@github.com:zh3linux/bin.git bin
+git clone git@github.com:zh3linux/Myscript.git bin
+ls
+cd bin
+ls
+cmd
+./cmd
+./cmd a
+cd
+ls
+vim ~/.bashrc
+ls
+source .bashrc
+ls
+grep.py
+ls
+cmd
+ls
+cd /opt/apps/web/
+ls
+cd vip_wps_cn/
+ls
+ls
+svn st
