@@ -1,128 +1,128 @@
-cd work/
+cd ..
+svn st
+cd ..
 ls
-cd work/
-sl
+cd qing_wps_cn/
 ls
-sh reload.sh 
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-sh reload.sh 
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-source ~/.bashrc
+svn st
+cd ..
 ls
-cd $vip
+svn qing_wps_cn_branche/
+cd qing_wps_cn_branche/
 ls
-cd /o 
-cd /opt/apps/
+svn st
+rm conf/lua/cfg.lua 
+rm conf/nginx/app/dotview_upstream.conf 
+svn st
+svn up
+svn st
+svn diff conf/qing.wps.cn.conf 
+svn st
+rm conf/qing.wps.cn.conf 
+svn st
+svn up
+svn st
+svn diff conf/lua/redispool.lua 
+cd ..
+ls
+cd vip_wps_cn/
+ls
+cd ..
+ls
+cd vip_wps_cn_branche/
+ls
+svn st
+cp ../qing_wps_cn_branche/conf/lua/redispool.lua .
+cp ../qing_wps_cn_branche/conf/lua/wps_session.lua .
+svn st
+ls
+ls *.lua
+mv *.lua conf/lua/
+ls
+ls
+cd conf
+ls
+cd lua
+ls
+svn st
+svn diff redispool.lua 
+svn st
+svn diff wps_session.lua 
+cp ../../../qing_wps_cn_branche/conf/lua/redispool.lua .
+cp ../../../qing_wps_cn_branche/conf/lua/wps_session.lua .
+svn st
+svn diff redispool.lua 
+cp ../../../qing_wps_cn_branche/conf/lua/redispool.lua .
+svn st
+svn diff redispool.lua 
+svn st
+cd ..
+cd ..
+svn st
+svn st
+svn commit -m "修复redis keepalive"
+cd ..
+cd qing_wps_cn_branche/
+svn st
+svn commit -m "修复redis keepalive"
+ls
+cd /opt/
+ls
+cd apps/
 ls
 cd web/vip_wps_cn/
-sl
-svn st
-svn add nginx/lua/logic/qing_openapi.lua 
+ls
+cd test/
+ls
+cd ..
+ls
+cd nginx/
+ls
+cd gte
+cd test/
+ls
+cat test_privilege.py 
+python test_privilege.py 
+python test_privilege.py 
+ls
+ls
+cat rpc.py
+ls
+python test_wealth.py
+python test_wealth.py
+python test_wealth.py
+python test_wealth.py
+python test_wealth.py
+python test_wealth.py
+python test_wealth.py
+python test_wealth.py
+cd -
+cd -
+cd ~/work/work/
+sh reload.sh 
+cd -
+python test_wealth.py
+python test_wealth.py
+python test_wealth.py
+python test_wealth.py
+python test_wealth.py
+python test_wealth.py
+python test_wealth.py
+ls
 cd 
 ls
-cd work/work/
+cd work/
 ls
+cd work/
+ls
+sh showlog.sh 
 sh reload.sh 
+sh showlog.sh 
 sh reload.sh 
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-ls
-ls
-cd /opt/apps/web/
-ls
-cd vip_wps_cn/
-ls
-svn st
-svn st
-svn commit -m "更新增加稻米执行自动扣费操作"
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-cd
-ls
-cd work/work/
-ls
+sh showlog.sh 
 sh reload.sh 
+sh showlog.sh 
 sh reload.sh 
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-curl http://vip.wps.cn/api/users/20147376/wealth/test
-ls
-cd
-ls
-cd doc/
-ls
-cd bin/
-ls
-cd
-ls
-git clone git@github.com:zh3linux/bin.git bin
-git clone git@github.com:zh3linux/Myscript.git bin
-ls
-cd bin
-ls
-cmd
-./cmd
-./cmd a
-cd
-ls
-vim ~/.bashrc
-ls
-source .bashrc
-ls
-grep.py
-ls
-cmd
-ls
-cd /opt/apps/web/
-ls
-cd vip_wps_cn/
-ls
-ls
-svn st
+sh showlog.sh 
+sh showlog.sh 
+sh reload.sh 

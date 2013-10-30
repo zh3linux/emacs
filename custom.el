@@ -37,3 +37,25 @@
 (global-set-key (kbd "C-x C-j") 'direx:jump-to-directory-other-window)
 (setq w3m-default-display-inline-images t)
 (setq w3m-home-page "http://www.google.com")
+
+
+;;----- weibo -----
+(add-to-list 'load-path "weibo.emacs")
+(require 'weibo)
+;;===========================================================================
+;;sr-speedbar-mode
+;;===========================================================================
+(require 'sr-speedbar)
+;;默认显示所有文件
+(custom-set-variables
+ '(speedbar-show-unknown-files t)
+)
+;;sr-speedbar-right-side 把speedbar放在左侧位置
+;;sr-speedbar-skip-other-window-p 多窗口切换时跳过speedbar窗口
+;;sr-speedbar-max-width与sr-speedbar-width-x 设置宽度
+;;(custom-set-variables '(sr-speedbar-right-side nil) '(sr-speedbar-skip-other-window-p t) '(sr-speedbar-max-width 20) '(sr-speedbar-width-x 10))
+;; 绑定快捷键
+;;(global-set-key (kbd "s-s") 'sr-speedbar-toggle)
+;;(global-set-key (kbd "s-r") 'sr-speedbar-refresh-toggle)
+;; 打开
+;;(sr-speedbar-open)
