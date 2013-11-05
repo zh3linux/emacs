@@ -4,6 +4,7 @@
 /.session
 CVS
 .svn
+eshell
 *~
 .cvsignore
 .*.lock
