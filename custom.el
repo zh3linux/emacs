@@ -82,3 +82,8 @@
       'mew-draft-send-message
       'mew-draft-kill
       'mew-send-hook))
+
+
+;;=====================tabbar===============
+(global-set-key [(meta j)] 'tabbar-backward)
+(global-set-key [(meta k)] 'tabbar-forward)
