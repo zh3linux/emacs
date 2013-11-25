@@ -85,5 +85,5 @@
 
 
 ;;=====================tabbar===============
-(global-set-key [(meta j)] 'tabbar-backward)
-(global-set-key [(meta k)] 'tabbar-forward)
+(global-set-key [(meta k)] 'tabbar-backward)
+(global-set-key [(meta j)] 'tabbar-forward)
